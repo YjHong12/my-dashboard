@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 function TransactionLog() {
   return (
     <div className='transactions'>
-      <center><Typography component="h1" variant="h4" color="primary">
+      <center><Typography component="h1" variant="h6" color="primary">
       Recent Transactions</Typography></center>
       <List>
         {mockTransactions.map((transaction, index) => (
