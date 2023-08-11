@@ -7,6 +7,7 @@ import TransactionLog from "./components/TransactionLog";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import ResponsiveDrawer from "./components/Drawer"
+import BasicTable from "./BasicTable";
 
 const theme = createTheme({
   palette: {
@@ -33,6 +34,7 @@ function App() {
         <ResponsiveDrawer />
         <main>
           <Header />
+                    {/* <BasicTable /> */}
           {/* <Dashboard /> */}
           {/* <Toolbar>
             <Sidebar />

@@ -3,6 +3,7 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import { mockTransactions } from "../mockData";
 import Typography from '@mui/material/Typography';
+import BasicTable from "../BasicTable";
 
 function TransactionLog() {
   return (
@@ -12,6 +13,9 @@ function TransactionLog() {
       <List>
         {mockTransactions.map((transaction, index) => (
           <div key={index}>
+
+
+
             <ListItem>
               {`ID: ${transaction.txId}`}</ListItem>
 
